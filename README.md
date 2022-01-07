@@ -10,10 +10,10 @@ from tqdm import tqdm #For displaying progress bar
 
 
 ```python
-access_token="787244004098187264-PPvZdf2EOC7CyuyPZtJxKIKf0ysYKNj"
-access_token_secret="0RCDdU87BKyggnLyHCKA4LkUMgfp418Gq0wxyllwzxlPa"
-consumer_key="LdtitxXRoMWiyy6SC7ZCfxPCd"
-consumer_secret="johM0OL8kg3sVfgYOx7PWfyuQZGNy92CpfEjxZL3W5quyKAlcE"
+access_token=""
+access_token_secret=""
+consumer_key=""
+consumer_secret=""
 
 # Creating the authentication object
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -149,16 +149,6 @@ from textblob import TextBlob
 nltk.download('stopwords')
 nltk.download('punkt')
 ```
-
-    [nltk_data] Downloading package stopwords to
-    [nltk_data]     C:\Users\kkonar2\AppData\Roaming\nltk_data...
-    [nltk_data]   Package stopwords is already up-to-date!
-    [nltk_data] Downloading package punkt to
-    [nltk_data]     C:\Users\kkonar2\AppData\Roaming\nltk_data...
-    [nltk_data]   Package punkt is already up-to-date!
-    
-
-
 
 
     True
