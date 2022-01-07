@@ -1,4 +1,4 @@
-# Twisent
+# Twisent - Twitter Sentiment Analysis
 
 ```python
 import tweepy # For twitter connection
